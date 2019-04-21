@@ -2,5 +2,6 @@
 # out the current state.
 
 def display_board(board)
-  print ""
+  b = board
+  print "#{b[0]}"
 end
