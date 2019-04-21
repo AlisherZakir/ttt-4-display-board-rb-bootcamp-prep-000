@@ -3,5 +3,10 @@
 
 def display_board(board)
   b = board
-  print "#{b[0]}"
+  print " #{b[0]} | #{b[1]} | #{b[2]} "
+  print "---------"
+  print " #{b[3]} | #{b[4]} | #{b[5]} "
+  print "---------"
+  print " #{b[6]} | #{b[7]} | #{b[8]} "
+  
 end
